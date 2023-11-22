@@ -24,7 +24,6 @@ function setJoao(x) {
         joao = 0;
     }
 }
-
 function deJoaoParaMaria() {
     maria += joao;
     joao = 0;
