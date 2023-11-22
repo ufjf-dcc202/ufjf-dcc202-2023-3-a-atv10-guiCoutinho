@@ -17,4 +17,14 @@ function setJoao(x) {
     joao = x;
 }
 
-export {getJoao, getMaria, setMaria, setJoao};
+function deJoaoParaMaria() {
+    maria += joao;
+    joao = 0;
+}
+
+function deMariaParaJoao() {
+    joao += maria;
+    maria = 0;
+}
+
+export {getJoao, getMaria, setMaria, setJoao, deJoaoParaMaria, deMariaParaJoao};
