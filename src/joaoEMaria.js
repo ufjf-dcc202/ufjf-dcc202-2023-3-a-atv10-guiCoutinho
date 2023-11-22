@@ -10,11 +10,19 @@ function getJoao() {
 }
 
 function setMaria(x) {
-    maria = x;
+    if(x >= 0) {
+        maria = x;
+    } else {
+        maria = 0;
+    }
 }
 
 function setJoao(x) {
-    joao = x;
+    if(x >= 0) {
+        joao = x;
+    } else {
+        joao = 0;
+    }
 }
 
 function deJoaoParaMaria() {
